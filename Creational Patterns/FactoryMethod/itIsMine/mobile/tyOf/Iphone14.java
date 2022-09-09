@@ -1,10 +1,10 @@
-package mobile.tyOf;
+package itIsMine.mobile.tyOf;
 
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.time.Year;
 
-import mobile.Mobile;
+import itIsMine.mobile.Mobile;
 
 public class Iphone14 extends Mobile {
     public Iphone14() {

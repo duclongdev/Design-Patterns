@@ -1,6 +1,8 @@
-import store.Store;
-import store.storeDetail.AndStore;
-import store.storeDetail.IosStore;
+package itIsMine;
+
+import itIsMine.store.Store;
+import itIsMine.store.storeDetail.AndStore;
+import itIsMine.store.storeDetail.IosStore;
 
 public class Application {
     private static Store store;

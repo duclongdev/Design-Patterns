@@ -1,9 +1,9 @@
-package store.storeDetail;
+package itIsMine.store.storeDetail;
 
-import mobile.Mobile;
-import mobile.tyOf.Iphone13ProMax;
-import mobile.tyOf.Iphone14;
-import store.Store;
+import itIsMine.mobile.Mobile;
+import itIsMine.mobile.tyOf.Iphone13ProMax;
+import itIsMine.mobile.tyOf.Iphone14;
+import itIsMine.store.Store;
 
 public class IosStore extends Store {
     String name;

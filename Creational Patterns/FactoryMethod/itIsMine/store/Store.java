@@ -1,6 +1,6 @@
-package store;
+package itIsMine.store;
 
-import mobile.Mobile;
+import itIsMine.mobile.Mobile;
 
 public abstract class Store {
     public abstract Mobile getMobile(String name);

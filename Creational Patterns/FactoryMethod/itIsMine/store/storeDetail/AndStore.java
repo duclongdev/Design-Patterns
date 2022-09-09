@@ -1,8 +1,8 @@
-package store.storeDetail;
+package itIsMine.store.storeDetail;
 
-import mobile.Mobile;
-import mobile.tyOf.XiaomiK20;
-import store.Store;
+import itIsMine.mobile.Mobile;
+import itIsMine.mobile.tyOf.XiaomiK20;
+import itIsMine.store.Store;
 
 public class AndStore extends Store {
     @Override

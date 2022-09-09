@@ -1,4 +1,4 @@
-package mobile;
+package itIsMine.mobile;
 
 import java.math.BigDecimal;
 import java.sql.Date;
