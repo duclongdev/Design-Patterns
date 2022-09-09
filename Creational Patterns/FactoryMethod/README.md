@@ -7,4 +7,4 @@
 - Factory method tách construction code của đối tượng cần khỏi tạo khỏi client code. Vì vậy rất dễ dàng để mở rộng construction code mà không ảnh hưởng đến client code.
   - Ví dụ: Khi ta cần thêm một đối tượng mới chỉ cần tạo ra lớp đó và override lớp creator. 
 #### 2.Sử dụng Factory Method khi bạn muốn cung cấp cho người dùng các thư viện hay library của bạn cách để extend các thành phần bên trong của nó
-#### 3. Sử dụng Factory Method khi bạn muốn tiết kiệm tài nguyên bằng cách sử dụng lại các đối tượng đang có thay vì phải tạo mới lại mỗi lần
+#### 3. Sử dụng Factory Method khi bạn muốn tiết kiệm tài nguyên bằng cách sử dụng lại các đối tượng đang có thay vì phải tạo mới lại mỗi lần   
