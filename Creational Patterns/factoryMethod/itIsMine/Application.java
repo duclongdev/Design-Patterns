@@ -1,7 +1,6 @@
 package itIsMine;
 
 import itIsMine.store.Store;
-import itIsMine.store.storeDetail.AndStore;
 import itIsMine.store.storeDetail.IosStore;
 
 public class Application {

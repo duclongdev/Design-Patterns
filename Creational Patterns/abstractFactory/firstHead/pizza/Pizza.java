@@ -9,7 +9,6 @@ import firstHead.ingredient.veggies.Veggies;
 
 public abstract class Pizza {
 	String name;
-
 	Dough dough;
 	Sauce sauce;
 	Veggies veggies[];
