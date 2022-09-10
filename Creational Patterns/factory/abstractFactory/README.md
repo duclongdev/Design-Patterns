@@ -19,4 +19,4 @@
 :x: Code có thể trở nên phức tạp hơn vì có rất nhiều interface và class được xuất hiện bên trong pattern này.
 
 #### Diagram
-![image](/abstracFactoryDiagram.png)
+![abstract factory diagram](/abstractFactory/abstracFactoryDiagram.png)
