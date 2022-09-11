@@ -11,13 +11,14 @@
 - Viết những đoạn code khởi đầu cho factory. Nó nên khởi tạo một thể hiện của một lớp factory cụ thể, dựa vào app config hay là môi trường trên máy tính của bạn. Truyền đối tượng factory này cho tất cả các lớp tạo sản phẩm.
 - Tìm tất cả những phương thức gọi trực tiếp đến phương thức khởi tạo của product. Replace chúng bằng cách gọi đến các phương thức khởi tạo trên đối tượng factory phù hợp. 
 ### 4. Pros and Cons
-:white_check_mark: Bạn có thể chắc chắn rằng product bạn lấy được từ factory là phụ hợp với những đối tượng cùng biến thể khác.
-:white_check_mark: Tránh được tight coupling giữa các lớp product cụ thể với client code.
-:white_check_mark: **Single Responsibility Principle** Bạn có thể trích xuất code khởi tạo đối tượng ở một nơi để có thể thay đổi dễ dàng hơn.
-:white_check_mark: **Open/Closed Principle** Bạn có thể dễ dàng thêm mới biến thể của product mà không làm thay đổi bất cứ dòng code nào ở client.
-:white_check_mark: cung cấp hướng tiếp cận với Interface thay thì các implement, che giấu sự phức tạp của việc khởi tạo các đối tượng với người dùng (client), độc lập giữa việc khởi tạo đối tượng và hệ thống sử dụng,..
-:white_check_mark: Giúp tránh được việc sử dụng điều kiện logic bên trong Factory Pattern. Khi một Factory Method lớn (có quá nhiều sử lý if-else hay switch-case), chúng ta nên sử dụng theo mô hình Abstract Factory để dễ quản lý hơn (cách phân chia có thể là gom nhóm các sub-class cùng loại vào một Factory).
-:x: Code có thể trở nên phức tạp hơn vì có rất nhiều interface và class được xuất hiện bên trong pattern này.
+- :white_check_mark: Bạn có thể chắc chắn rằng product bạn lấy được từ factory là phụ hợp với những đối tượng cùng biến thể khác.
+- :white_check_mark: Tránh được tight coupling giữa các lớp product cụ thể với client code.
+- :white_check_mark: **Single Responsibility Principle** Bạn có thể trích xuất code khởi tạo đối tượng ở một nơi để có thể thay đổi dễ dàng hơn.
+- :white_check_mark: **Open/Closed Principle** Bạn có thể dễ dàng thêm mới biến thể của product mà không làm thay đổi bất cứ dòng code nào ở client.
+- :white_check_mark: cung cấp hướng tiếp cận với Interface thay thì các implement, che giấu sự phức tạp của việc khởi tạo các đối tượng với người dùng (client), độc lập giữa việc khởi tạo đối tượng và hệ thống sử dụng,..
+- :white_check_mark: Giúp tránh được việc sử dụng điều kiện logic bên trong Factory Pattern. Khi một Factory Method lớn (có quá nhiều sử lý if-else hay switch-case), chúng ta nên sử dụng theo mô hình Abstract Factory để dễ quản lý hơn (cách phân chia có thể là gom nhóm các sub-class cùng loại vào một Factory).
+
+- :x: Code có thể trở nên phức tạp hơn vì có rất nhiều interface và class được xuất hiện bên trong pattern này.
 
 #### Diagram
-![abstract factory diagram](/abstractFactory/abstracFactoryDiagram.png)
+![abstracFactoryDiagram](https://user-images.githubusercontent.com/108172013/189492467-fcd0b617-a864-4342-9e30-3d9869a55260.png)
