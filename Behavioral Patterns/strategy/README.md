@@ -18,3 +18,7 @@
 ### Cons
 - Nếu bạn có một vài thuật toán mà nó rất ít khi thay đổi thì không có lý do gì để làm phức tạp vấn đề bằng cách thêm các lớp hay các interface cho giống như pattern này.
 - Phía client phải hiểu được sự khác nhau giữa các strategy để có thể sử dụng nó sao cho phù hợp.
+#### Diagram
+![strategyDiagram](https://github.com/duclongdev/Design-Patterns/blob/main/Behavioral%20Patterns/strategy/Stategy.png)
+#### Reference
+[refactoring.guru](https://refactoring.guru/design-patterns/strategy)
