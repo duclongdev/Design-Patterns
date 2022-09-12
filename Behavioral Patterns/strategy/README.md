@@ -1,5 +1,5 @@
 # Strategy Design pattern
-- Strategy Design pattern cho phép bạn định nghĩa một tập hợp các thuật toán liên quan đến nhau, đặt chúng ở mỗi class tách biệt, và để dễ dàng thay đổi các thuật toán khi cần thiết.
+- Strategy Design pattern cho phép bạn định nghĩa một tập hợp các thuật toán liên quan đến nhau, đặt chúng ở mỗi class tách biệt, và để dễ dàng thay đổi các thuật toán khi cần.
 ### Applicability
 - Sử dụng khi bạn muốn dùng một trong những biến thể của thuật toán đó trong một đối tượng và muốn chuyển đổi chúng trong runtime.
 - Sử dụng khi bạn có một loạt các class liên quan nhưng chúng chỉ khác nhau ở cách thực thi một vài hành động.
