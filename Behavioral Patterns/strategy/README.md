@@ -4,7 +4,7 @@
 - Sử dụng khi bạn muốn dùng một trong những biến thể của thuật toán đó trong một đối tượng và muốn chuyển đổi chúng trong runtime.
 - Sử dụng khi bạn có một loạt các class liên quan nhưng chúng chỉ khác nhau ở cách thực thi một vài hành động.
 - Khi muốn tách những logic nghiệp vụ của một lớp ra khỏi những triển khai chi tiết của thuật toán có thể không quan trọng trong ngữ cảnh của logic đó.
-- Khi mà class có một câu lệnh điều kiện có nhiều chuyển đổi giữa các biến thể khác nhau của một thuật toán. 
+- Khi mà class có một câu lệnh điều kiện có nhiều chuyển đổi giữa các biến thể khác nhau của một thuật toán.
 ### How to implement
 1. Trong context class, xác định thuật toán mà dễ dàng hay thường xuyên bị thay đổi.Nó cùng có thể là một khối lệnh điều kiện để chọn và thực thi biến thể của một thuật toán tại runtime.
 2. Khai báo một statery interface cho tất cả các biển thể của thuật toán đó.
