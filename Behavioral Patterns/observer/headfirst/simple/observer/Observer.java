@@ -1,4 +1,4 @@
-package headfirst.simple;
+package headfirst.simple.observer;
 
 
 public interface Observer {

@@ -1,6 +1,9 @@
-package headfirst.simple;
+package headfirst.simple.subject;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import headfirst.simple.observer.Observer;
 
 public class SimpleSubject implements Subject {
 	private List<Observer> observers;

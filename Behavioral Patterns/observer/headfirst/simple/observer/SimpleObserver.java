@@ -1,4 +1,6 @@
-package headfirst.simple;
+package headfirst.simple.observer;
+
+import headfirst.simple.subject.Subject;
 
 public class SimpleObserver implements Observer {
 	private int value;
