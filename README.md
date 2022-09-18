@@ -11,7 +11,7 @@
 - Lập trình bằng interface không phải bằng implement (program to interfaces not implementaions).
 - Cố gắng tạo ra các thiết kế liên kết lỏng lẻo giữa các đối tượng tương tác (Strive for loosely coupled designs between object that interact.)
 #### Vậy "Thiết kế mẫu là gì"?
-- Design patter mô tả hay là một khuôn mẫu về cách giải quyết vấn đề có thể được sử dụng trong nhiều trường hợp khác nhau. Design pattern là một [best practices](#phương-pháp-hay-nhất-best-practice) mà lập trình viên có thế sử dụng để xử lý những vấn đề khi thiết kế một ứng dụng hoặc một hệ thống.
+- Design patter mô tả hay là một khuôn mẫu về cách giải quyết vấn đề có thể được sử dụng trong nhiều trường hợp khác nhau. Nó là một [best practices](#phương-pháp-hay-nhất-best-practice) mà lập trình viên có thế sử dụng để xử lý những vấn đề khi thiết kế một ứng dụng hoặc một hệ thống.
 - Được sử dụng thường xuyên trong các ngôn ngữ OOP.
 #### Mục đích
 - Giúp các lập trình viên giao tiếp với nhau hiệu quả

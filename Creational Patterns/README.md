@@ -27,3 +27,6 @@ Trong kỹ thuật phần mềm hiện đại phụ thuộc nhiều hơn vào **
   There must be a single instance and client can access this instance at all times.
 - Phải có một thể hiện duy nhất và client có thể truy cập thể hiện nay bất cứ thời điểm nào
 - Có thể mở rộng mà không bi thay đổi.
+
+### Reference 
+- [Wiki](https://en.wikipedia.org/wiki/Creational_pattern#cite_note-1)
