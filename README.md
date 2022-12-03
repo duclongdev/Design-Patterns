@@ -14,6 +14,8 @@
 - Ưu tiên compostion hơn thừa kế (Favor composition over inheritance).
 - Lập trình bằng interface không phải bằng implement (program to interfaces not implementaions).
 - Cố gắng tạo ra các thiết kế liên kết lỏng lẻo giữa các đối tượng tương tác (Strive for loosely coupled designs between object that interact.)
+- Class should be open for extension but closed for modification (Điều này đơn giản có nghĩa là một lớp nên dễ dàng mở rộng mà không sửa đổi chính lớp đó.)
+- Depend on abstraction. Do not depend on concrete classes (Các module cấp cao không nên phụ thuộc vào các modules cấp thấp. Cả 2 nên phụ thuộc vào abstraction.)
 
 #### Vậy "Thiết kế mẫu là gì"?
 
