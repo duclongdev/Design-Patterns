@@ -13,6 +13,15 @@
 - Bạn muốn tránh sự rắc rối, khi phải hiện thực một chức năng nào đó qua quá nhiều lớp con.
 - Bạn muốn thay đổi thuật toán sử dụng khi chạy chương trình
 
+#### Structure
+1. Strategy (Chiến lược): Giao diện hoặc lớp trừu tượng định nghĩa các phương thức mà các thuật toán cụ thể phải triển khai.
+    execute(data): Phương thức để thực hiện thuật toán.
+2. ConcreteStrategy (Chiến lược cụ thể): Các lớp triển khai cụ thể của Strategy, cài đặt các thuật toán khác nhau.
+    Triển khai phương thức execute(data).
+3. Context (Ngữ cảnh): Lớp sử dụng Strategy, chứa một tham chiếu đến một đối tượng Strategy. Context không biết chi tiết cụ thể về các thuật toán, chỉ biết cách sử dụng chúng thông qua giao diện Strategy.
+  set_strategy(strategy: Strategy): Phương thức để đặt chiến lược hiện tại.
+  do_something(data): Phương thức để thực hiện công việc với chiến lược hiện tại.
+
 ### How to implement
 
 1. Trong context class, xác định thuật toán mà dễ dàng hay thường xuyên bị thay đổi.Nó cùng có thể là một khối lệnh điều kiện để chọn và thực thi biến thể của một thuật toán tại runtime.
